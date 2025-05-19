@@ -70,6 +70,7 @@ python app.py
 ```
 .
 ├── app.py                # Flask backend
+├── get_response.py       # Function to send query to Groq
 ├── templates/
 │   └── index.html        # Main HTML file
 ├── static/
