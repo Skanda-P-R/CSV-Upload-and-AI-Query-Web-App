@@ -37,8 +37,8 @@ This is a simple Flask-based web application that allows users to upload a CSV f
 1. **Clone the repo**
 
 ```
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
+https://github.com/Skanda-P-R/CSV-Upload-and-AI-Query-Web-App.git
+cd CSV-Upload-and-AI-Query-Web-App
 ```
 
 2. **Create and activate a virtual environment (optional but recommended)**
