@@ -12,7 +12,7 @@ This is a simple Flask-based web application that allows users to upload a CSV f
 
 ## Demo
 
-![CSV Upload & AI Query UI](https://github.com/user-attachments/assets/eac23fb8-33a5-Q4162-a2be-301091ecf31b)
+![image](https://github.com/user-attachments/assets/8b758c13-0dc2-40d5-a0db-68450c34a144)
 
 ---
 
