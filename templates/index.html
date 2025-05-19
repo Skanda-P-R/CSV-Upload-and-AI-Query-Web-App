@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>CSV Upload & AI Query</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+    <label for="csv-upload" class="file-upload-label">Upload CSV</label>
+    <input type="file" id="csv-upload" accept=".csv" style="display: none;" />
+    <span id="file-name" class="file-name">No file selected</span>
+
+    <br />
+    <label for="query-editor">User Query</label><br />
+    <textarea id="query-editor" placeholder="Enter your query here..."></textarea>
+
+    <button onclick="sendQuery()">Submit Query</button>
+
+    <div id="response-container" aria-live="polite" role="region" aria-label="AI Response">
+        AI Response will appear here...
+    </div>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+
+</body>
+
+</html>

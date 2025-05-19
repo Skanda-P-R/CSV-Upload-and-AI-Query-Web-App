@@ -1,0 +1,7 @@
+Date,Description,Category,Amount,Balance,Transaction Type
+2025-05-01,Salary Deposit,Income,3000.00,5000.00,Credit
+2025-05-03,Starbucks,Food & Drink,-5.75,4994.25,Debit
+2025-05-04,Rent Payment,Housing,-1200.00,3794.25,Debit
+2025-05-05,Amazon Purchase,Shopping,-89.99,3704.26,Debit
+2025-05-06,Transfer from Savings,Transfer,500.00,4204.26,Credit
+2025-05-07,Grocery Store,Groceries,-135.50,4068.76,Debit
